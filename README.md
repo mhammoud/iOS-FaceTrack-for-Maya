@@ -4,3 +4,6 @@ iOS FaceTrack for Maya allows you to use your iPhone X/XS/XS Max for facial moti
 
 ![](giphy.gif)
 
+## How does it work? ##
+
+[...]
