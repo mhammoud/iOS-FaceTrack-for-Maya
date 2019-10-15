@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		104DAE7F235147DB007FE83D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104DAE7E235147DB007FE83D /* AppDelegate.swift */; };
+		104DAE83235147DB007FE83D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104DAE82235147DB007FE83D /* ViewController.swift */; };
+		104DAE86235147DB007FE83D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104DAE84235147DB007FE83D /* Main.storyboard */; };
+		104DAE88235147DC007FE83D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104DAE87235147DC007FE83D /* Assets.xcassets */; };
+		104DAE8B235147DC007FE83D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104DAE89235147DC007FE83D /* LaunchScreen.storyboard */; };
+		104DAE96235147DC007FE83D /* iOS_FaceTrack_for_MayaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104DAE95235147DC007FE83D /* iOS_FaceTrack_for_MayaTests.swift */; };
+		104DAEA1235147DC007FE83D /* iOS_FaceTrack_for_MayaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104DAEA0235147DC007FE83D /* iOS_FaceTrack_for_MayaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		104DAE92235147DC007FE83D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 104DAE73235147DB007FE83D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 104DAE7A235147DB007FE83D;
+			remoteInfo = "iOS FaceTrack for Maya";
+		};
+		104DAE9D235147DC007FE83D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 104DAE73235147DB007FE83D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 104DAE7A235147DB007FE83D;
+			remoteInfo = "iOS FaceTrack for Maya";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		104DAE7B235147DB007FE83D /* iOS FaceTrack for Maya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS FaceTrack for Maya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		104DAE7E235147DB007FE83D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		104DAE82235147DB007FE83D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		104DAE85235147DB007FE83D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		104DAE87235147DC007FE83D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		104DAE8A235147DC007FE83D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		104DAE8C235147DC007FE83D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		104DAE91235147DC007FE83D /* iOS FaceTrack for MayaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS FaceTrack for MayaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		104DAE95235147DC007FE83D /* iOS_FaceTrack_for_MayaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_FaceTrack_for_MayaTests.swift; sourceTree = "<group>"; };
+		104DAE97235147DC007FE83D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		104DAE9C235147DC007FE83D /* iOS FaceTrack for MayaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS FaceTrack for MayaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		104DAEA0235147DC007FE83D /* iOS_FaceTrack_for_MayaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_FaceTrack_for_MayaUITests.swift; sourceTree = "<group>"; };
+		104DAEA2235147DC007FE83D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		104DAE78235147DB007FE83D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		104DAE8E235147DC007FE83D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		104DAE99235147DC007FE83D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		104DAE72235147DB007FE83D = {
+			isa = PBXGroup;
+			children = (
+				104DAE7D235147DB007FE83D /* iOS FaceTrack for Maya */,
+				104DAE94235147DC007FE83D /* iOS FaceTrack for MayaTests */,
+				104DAE9F235147DC007FE83D /* iOS FaceTrack for MayaUITests */,
+				104DAE7C235147DB007FE83D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		104DAE7C235147DB007FE83D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				104DAE7B235147DB007FE83D /* iOS FaceTrack for Maya.app */,
+				104DAE91235147DC007FE83D /* iOS FaceTrack for MayaTests.xctest */,
+				104DAE9C235147DC007FE83D /* iOS FaceTrack for MayaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		104DAE7D235147DB007FE83D /* iOS FaceTrack for Maya */ = {
+			isa = PBXGroup;
+			children = (
+				104DAE7E235147DB007FE83D /* AppDelegate.swift */,
+				104DAE82235147DB007FE83D /* ViewController.swift */,
+				104DAE84235147DB007FE83D /* Main.storyboard */,
+				104DAE87235147DC007FE83D /* Assets.xcassets */,
+				104DAE89235147DC007FE83D /* LaunchScreen.storyboard */,
+				104DAE8C235147DC007FE83D /* Info.plist */,
+			);
+			path = "iOS FaceTrack for Maya";
+			sourceTree = "<group>";
+		};
+		104DAE94235147DC007FE83D /* iOS FaceTrack for MayaTests */ = {
+			isa = PBXGroup;
+			children = (
+				104DAE95235147DC007FE83D /* iOS_FaceTrack_for_MayaTests.swift */,
+				104DAE97235147DC007FE83D /* Info.plist */,
+			);
+			path = "iOS FaceTrack for MayaTests";
+			sourceTree = "<group>";
+		};
+		104DAE9F235147DC007FE83D /* iOS FaceTrack for MayaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				104DAEA0235147DC007FE83D /* iOS_FaceTrack_for_MayaUITests.swift */,
+				104DAEA2235147DC007FE83D /* Info.plist */,
+			);
+			path = "iOS FaceTrack for MayaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		104DAE7A235147DB007FE83D /* iOS FaceTrack for Maya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104DAEA5235147DC007FE83D /* Build configuration list for PBXNativeTarget "iOS FaceTrack for Maya" */;
+			buildPhases = (
+				104DAE77235147DB007FE83D /* Sources */,
+				104DAE78235147DB007FE83D /* Frameworks */,
+				104DAE79235147DB007FE83D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS FaceTrack for Maya";
+			productName = "iOS FaceTrack for Maya";
+			productReference = 104DAE7B235147DB007FE83D /* iOS FaceTrack for Maya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		104DAE90235147DC007FE83D /* iOS FaceTrack for MayaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104DAEA8235147DC007FE83D /* Build configuration list for PBXNativeTarget "iOS FaceTrack for MayaTests" */;
+			buildPhases = (
+				104DAE8D235147DC007FE83D /* Sources */,
+				104DAE8E235147DC007FE83D /* Frameworks */,
+				104DAE8F235147DC007FE83D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				104DAE93235147DC007FE83D /* PBXTargetDependency */,
+			);
+			name = "iOS FaceTrack for MayaTests";
+			productName = "iOS FaceTrack for MayaTests";
+			productReference = 104DAE91235147DC007FE83D /* iOS FaceTrack for MayaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		104DAE9B235147DC007FE83D /* iOS FaceTrack for MayaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104DAEAB235147DC007FE83D /* Build configuration list for PBXNativeTarget "iOS FaceTrack for MayaUITests" */;
+			buildPhases = (
+				104DAE98235147DC007FE83D /* Sources */,
+				104DAE99235147DC007FE83D /* Frameworks */,
+				104DAE9A235147DC007FE83D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				104DAE9E235147DC007FE83D /* PBXTargetDependency */,
+			);
+			name = "iOS FaceTrack for MayaUITests";
+			productName = "iOS FaceTrack for MayaUITests";
+			productReference = 104DAE9C235147DC007FE83D /* iOS FaceTrack for MayaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		104DAE73235147DB007FE83D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Mohamed Hammoud";
+				TargetAttributes = {
+					104DAE7A235147DB007FE83D = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					104DAE90235147DC007FE83D = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 104DAE7A235147DB007FE83D;
+					};
+					104DAE9B235147DC007FE83D = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 104DAE7A235147DB007FE83D;
+					};
+				};
+			};
+			buildConfigurationList = 104DAE76235147DB007FE83D /* Build configuration list for PBXProject "iOS FaceTrack for Maya" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 104DAE72235147DB007FE83D;
+			productRefGroup = 104DAE7C235147DB007FE83D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				104DAE7A235147DB007FE83D /* iOS FaceTrack for Maya */,
+				104DAE90235147DC007FE83D /* iOS FaceTrack for MayaTests */,
+				104DAE9B235147DC007FE83D /* iOS FaceTrack for MayaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		104DAE79235147DB007FE83D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104DAE8B235147DC007FE83D /* LaunchScreen.storyboard in Resources */,
+				104DAE88235147DC007FE83D /* Assets.xcassets in Resources */,
+				104DAE86235147DB007FE83D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		104DAE8F235147DC007FE83D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		104DAE9A235147DC007FE83D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		104DAE77235147DB007FE83D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104DAE83235147DB007FE83D /* ViewController.swift in Sources */,
+				104DAE7F235147DB007FE83D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		104DAE8D235147DC007FE83D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104DAE96235147DC007FE83D /* iOS_FaceTrack_for_MayaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		104DAE98235147DC007FE83D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104DAEA1235147DC007FE83D /* iOS_FaceTrack_for_MayaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		104DAE93235147DC007FE83D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 104DAE7A235147DB007FE83D /* iOS FaceTrack for Maya */;
+			targetProxy = 104DAE92235147DC007FE83D /* PBXContainerItemProxy */;
+		};
+		104DAE9E235147DC007FE83D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 104DAE7A235147DB007FE83D /* iOS FaceTrack for Maya */;
+			targetProxy = 104DAE9D235147DC007FE83D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		104DAE84235147DB007FE83D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				104DAE85235147DB007FE83D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		104DAE89235147DC007FE83D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				104DAE8A235147DC007FE83D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		104DAEA3235147DC007FE83D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		104DAEA4235147DC007FE83D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		104DAEA6235147DC007FE83D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3MT5765R8;
+				INFOPLIST_FILE = "iOS FaceTrack for Maya/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mhammoud.iOS-FaceTrack-for-Maya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		104DAEA7235147DC007FE83D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3MT5765R8;
+				INFOPLIST_FILE = "iOS FaceTrack for Maya/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mhammoud.iOS-FaceTrack-for-Maya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		104DAEA9235147DC007FE83D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3MT5765R8;
+				INFOPLIST_FILE = "iOS FaceTrack for MayaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mhammoud.iOS-FaceTrack-for-MayaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS FaceTrack for Maya.app/iOS FaceTrack for Maya";
+			};
+			name = Debug;
+		};
+		104DAEAA235147DC007FE83D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3MT5765R8;
+				INFOPLIST_FILE = "iOS FaceTrack for MayaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mhammoud.iOS-FaceTrack-for-MayaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS FaceTrack for Maya.app/iOS FaceTrack for Maya";
+			};
+			name = Release;
+		};
+		104DAEAC235147DC007FE83D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3MT5765R8;
+				INFOPLIST_FILE = "iOS FaceTrack for MayaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mhammoud.iOS-FaceTrack-for-MayaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS FaceTrack for Maya";
+			};
+			name = Debug;
+		};
+		104DAEAD235147DC007FE83D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3MT5765R8;
+				INFOPLIST_FILE = "iOS FaceTrack for MayaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mhammoud.iOS-FaceTrack-for-MayaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS FaceTrack for Maya";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		104DAE76235147DB007FE83D /* Build configuration list for PBXProject "iOS FaceTrack for Maya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104DAEA3235147DC007FE83D /* Debug */,
+				104DAEA4235147DC007FE83D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		104DAEA5235147DC007FE83D /* Build configuration list for PBXNativeTarget "iOS FaceTrack for Maya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104DAEA6235147DC007FE83D /* Debug */,
+				104DAEA7235147DC007FE83D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		104DAEA8235147DC007FE83D /* Build configuration list for PBXNativeTarget "iOS FaceTrack for MayaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104DAEA9235147DC007FE83D /* Debug */,
+				104DAEAA235147DC007FE83D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		104DAEAB235147DC007FE83D /* Build configuration list for PBXNativeTarget "iOS FaceTrack for MayaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104DAEAC235147DC007FE83D /* Debug */,
+				104DAEAD235147DC007FE83D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 104DAE73235147DB007FE83D /* Project object */;
+}
